@@ -1,7 +1,9 @@
-# JavaScript-Data-structures-and-Algorithms
+# JavaScript(ES6)-Data-structures-and-Algorithms
 
-Hello to all students and programmers.
-In this resource, I put the most common algorithms and data structures in JavaScript language. Hope you enjoy .
+Hello to all students and programmers,
+In this resource, I put the most common algorithms and data structures in JavaScript language,
+all the code are based on new ES6 syntax.
+Hope you enjoy .
 Don't forget to star.
 
 a.m
