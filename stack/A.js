@@ -1,20 +1,26 @@
 class Stack {
   #items = [];
+  #top = -1;
 
   push(element) {
     this.#items.push(element);
+    this.#top++;
   }
 
   pop() {
-    return this.#items.pop();
+    if (this.#top === -1) {
+      console.log("stack is empty");
+    }
+
+    this.#items.pop();
   }
 
   peek() {
-    return this.#items[this.#items.length - 1];
+    return this.#top;
   }
 
   isEmpty() {
-    return this.#items.length == 0;
+    return this.#top === -1;
   }
 
   size() {
@@ -23,6 +29,7 @@ class Stack {
 
   clear() {
     this.#items = [];
+    this.#top = -1;
   }
   print() {
     console.log(this.#items.toString());
